@@ -1,0 +1,7 @@
+.top-container {
+    display: flex;
+}
+
+.top-container div {
+    background-color: #1F2937
+}

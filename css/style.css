@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .top-container {
@@ -8,37 +9,63 @@
     background-color: #1F2937;
     color: #fff;
     justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 900px;
 }
 
 .top-container div {
     justify-content:space-between;
+    padding: 0 100px
 }
 
 .header-logo {
     font-weight: bolder;
+    font-size: 48px;
 }
 
 .link {
+    font-size: 18px;
     display: flex;
-    padding: 0 10px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .link div{
     justify-content: end;
-    padding: 0 10px;
+    padding: 20px 50px;
 }
 
-/*
-.headline-container {
+.banner-sign-up {
     display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    color: #fff;
 }
 
+.banner-sign-up div {
+    /*hello*/
+    margin: 50px 10px;
+}
 
-.button {
-    background-color: blue;
-}*/
+.left-placeholder {
+    background-color: #1F2937;
+    width: 400px;
+    color: #E5E7EB;
+}
+
+.left-placeholder h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.right-placeholder {
+    background-color: grey;
+    justify-content: end;
+    color: white;
+}
+
+.sign-up-button {
+    background-color:#3882F6; 
+    color: white;
+    font-weight: bold;
+    padding: 3px 20px;
+    border-radius: 5px;
+    border-color: white;
+    border: 10px ;
+}

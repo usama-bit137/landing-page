@@ -9,81 +9,126 @@
     background-color: #1F2937;
     color: #fff;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    flex-wrap: wrap;
+    min-width: 100px;
 }
 
 .top-container div {
-    justify-content:space-between;
-    padding: 0 100px
+    width: 100px;
+    gap: 50px;
+    border: 1px solid white;
+}
+
+.edge-margin {
+    width: 100;
+    height: 50px;
+    min-width: 100px;
+    flex:0.5 0 auto;
 }
 
 .header-logo {
-    font-weight: bolder;
-    font-size: 48px;
+    font-weight: bold;
+    font-size: 35px;
+    flex: 1 1 auto;
 }
 
 .link {
     font-size: 18px;
     display: flex;
-    justify-content: space-around;
+    gap: 10px;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
 }
 
-.link div{
-    justify-content: end;
-    padding: 20px 50px;
+.link div {
+    flex: 1 1 auto;    
 }
 
+
+
+
+
+
+
+
+.some-info-container {
+    display: flex;
+}
 .banner-sign-up {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    gap: 10px;
+    min-width: 100px;
+    /*border: 1px solid white;*/
 }
 
+.banner-container {
+    display: flex;
+    padding: 100px 0;
+    gap: 10px;
+    width: 500px;
+}
 .banner-sign-up div {
-    justify-content: space-between;
+    justify-content: center;
+    border: 1px solid white;
+    flex: 1 1 auto;
 }
 
 
 .left-placeholder {
     background-color: #1F2937;
-    width: 400px;
     color: #E5E7EB;
+    width: 245px;
+    padding: 10px 0;
 }
 
-.empty {
-    display: flex;
-    width: 170px;
-    padding: 10px;
+.some-text {
+    height: 100px;
+    margin: 10px 0;
+    width: 245px;
 }
 
 .left-placeholder h1 {
     color: white;
-    margin: 20px 0;
+    width: 0px;
 }
 
 .right-placeholder {
     background-color: grey;
     color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    flex: 1 1 auto;
+
 }
 
 .sign-up-button {
     background-color:#3882F6; 
     color: white;
     font-weight: bold;
-    padding: 3px 20px;
+    padding: 4px 20px;
     border-radius: 5px;
     border-color: white;
     border: 10px ;
 }
 
-.some-info-container {
+
+/*
+.some-info-contaiblockner {
     display: flex;
     justify-items: center;
     background-color: blue;
 }
 
-.some-info-container {
-
-}
 
 .title-container {
     justify-content: center;
@@ -99,4 +144,4 @@
     justify-content: space-between;
     border:4px solid white;
     border-radius: 10px;
-}
+}*/
